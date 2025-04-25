@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 900px;
+    background-color: #F5CF06;
+}
+header{
+    display: flex;
+    font-family: "Righteous", sans-serif;
+    gap: 20px;
+    padding: 70px;
+    align-items: center;
+    height: 150px;
+}
+header h1{
+    font-weight: 400;
+    font-size: 32px;
+    color: #8E4106;
+    width: 134px;
+    height: 40px;
+
+}
+main{
+    width: 100vw;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .textpikachu{
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+    height: 1462px;
+    width: 497px;
+    font-family: "Righteous", sans-serif;
+
+}
+main .textpikachu>h1{
+    font-size: 400px;
+    color: white;
+    opacity: 30%;
+}
+main .textpikachu>h2{
+    font-size: 300px;
+    color: white;
+}
+main .fotodopikachu{
+    width: 559px;
+    height: 541px;
+    position: absolute;
+    z-index: 2;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 50px;
+}
+footer .copyright{
+    justify-self: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
