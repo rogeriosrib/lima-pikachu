@@ -37,15 +37,19 @@ main .textpikachu{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    height: 50%;
+    height: 100%;
     width: 100%;
     font-family: "Righteous", sans-serif;
 
 }
+main .textogrande{
+    height: 180%;
+    width: 180%;
+}
 main .fundopikachu{
     width: 1462px;
     height: 548px;
+
 }
 main .fotodopikachu{
     position: absolute;
@@ -53,7 +57,7 @@ main .fotodopikachu{
     width: 559px;
     height: 541px;
     top: 350px;
-    left: 720px;
+    left: 1040px;
 }
 .top{
     display: flex;
@@ -62,8 +66,6 @@ main .fotodopikachu{
 }
 
 .button{
-    /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr;*/
     height: 30%;
     width: 100%;
     font-family: "Righteous", sans-serif;
@@ -99,7 +101,6 @@ footer{
 }
 footer .copyright{
     justify-self: center;
-    align-items: center;
     margin: 0;
     font-family: "Righteous", sans-serif;
     font-weight: 400;
